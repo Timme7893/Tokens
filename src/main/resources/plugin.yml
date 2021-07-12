@@ -1,6 +1,6 @@
 name: TokensPlugin
-main: net.kyvackmc.tokens.Tokens
-description: A Tokens generator plugin with supported economy.
+main: net.timme7893.tokens.Tokens
+description: A tokens generator plugin with supported economy.
 version: 0.1
 author: [Timme7893]
 
