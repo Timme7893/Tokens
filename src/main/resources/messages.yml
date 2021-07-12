@@ -1,0 +1,38 @@
+prefix: "&a&lTOKENS &f> "
+admin-permission: "tokens.admin"
+
+own-tokens:
+  message: "You have &a%tokens% &ftokens."
+
+user-not-found:
+  message: "The user &c%user% &fdoesn't exists."
+
+user-tokens:
+  message: "%user% has &a%tokens% &ftokens."
+
+no-permission:
+  message: "You don't have permission (&c%admin-permission%&f) to execute this command."
+
+not-valid-number:
+  message: "Please, insert a valid number!"
+
+set-tokens:
+  message: "You've set %user%'s tokens to &a%tokens%&f."
+
+add-tokens:
+  message: "You've added &a%tokens% &ftokens to %user%."
+
+remove-tokens:
+  message: "You've removed &a%tokens% &ftokens from %user%"
+
+claimed-tokens:
+  message: "You've claimed &a&l%tokens% tokens &fout of the generator."
+
+not-enough-tokens-for-upgrade:
+  message: "You don't have enough tokens to upgrade this generator! The cost for the next upgrade is &c%tokens% tokens&f."
+
+generator-upgraded:
+  message: "You've upgraded this generator to &a&l%next-tier% Tier&f! \n&c&l%tokens% tokens &fhave been removed from your account."
+
+generator-max-tier:
+  message: "You &c&lcan't upgrade &fthe generator. The generator is already at his max tier."

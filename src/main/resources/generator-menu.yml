@@ -1,0 +1,39 @@
+title: "&aTokens generator"
+rows: 3
+
+items:
+  tier:
+    item: CHEST
+    row: 2
+    slot: 3
+    name: '&9&lTIER'
+    lore:
+      - '&fThe tier of the generator influences'
+      - '&fthe amount of tokens per generate'
+      - '&fand wait delay per generate.'
+      -  ''
+      - '&fTier: &9[%tier%]&f.'
+      - '&fTokens per generate: &9%tokens%&f.'
+      - '&fWait delay: &9%delay% seconds.'
+      - '&fNext tier: &9%next-tier%&f, costs: &9%cost%&f tokens.'
+      - ''
+      - '&aClick to upgrade the tier.'
+  tokens:
+    item: EMERALD
+    row: 2
+    slot: 5
+    name: '&a&lTOKENS'
+    lore:
+      - '&fEvery generate this generator'
+      - '&fproduces &a%new-tokens% &fnew tokens.'
+      - ''
+      - '&fTokens: &a&l%tokens%&f.'
+      - ''
+      - '&aClick to claim the tokens.'
+  exit:
+    item: BARRIER
+    row: 2
+    slot: 7
+    name: '&c&lCLOSE'
+    lore:
+      - '&fClick to exit the generator.'

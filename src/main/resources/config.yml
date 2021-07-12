@@ -1,0 +1,27 @@
+generator-block: ENCHANTMENT_TABLE
+
+tiers-list:
+  - 'tier-0'
+  - 'tier-1'
+  - 'tier-2'
+  - 'tier-3'
+
+tiers:
+  tier-0:
+    generatingTime: 30
+    tokensPerGenerate: 1
+    costToUpgrade: 0
+  tier-1:
+    generatingTime: 25
+    tokensPerGenerate: 2
+    costToUpgrade: 30
+  tier-2:
+    generatingTime: 15
+    tokensPerGenerate: 5
+    costToUpgrade: 100
+  tier-3:
+    generatingTime: 5
+    tokensPerGenerate: 10
+    costToUpgrade: 300
+
+armorstand-text: '&a&l%tokens% &ftokens.'
